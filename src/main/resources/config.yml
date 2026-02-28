@@ -1,0 +1,43 @@
+# HytaleBlocker config
+messages:
+  no-food: "&cНедостаточно голода для блока!"
+  attack-cooldown: "&7Кулдаун: &c{seconds}s"
+  reloaded: "&aКонфиг перезагружен."
+
+detect:
+  use-floodgate: true
+
+block:
+  enabled: true
+  min-food-level: 1
+  angle-deg: 120.0
+  incoming-damage-multiplier: 0.0
+  durability-loss-on-block: 3
+  hunger-cost-on-block: 1
+  freeze-movement: true
+  cancel-attack-cooldown-ms: 1000
+
+java:
+  block-refresh-window-ms: 250
+
+bedrock:
+  sneak-to-block: true
+  parry-attack-cooldown-ms: 1000
+
+parry:
+  enabled: true
+  damage: 3.0
+  durability-loss-on-parry: 1
+  hunger-cost-on-parry: 1
+
+allowed-items:
+  - DIAMOND_SWORD
+  - NETHERITE_SWORD
+  - IRON_SWORD
+  - IRON_AXE
+  - DIAMOND_AXE
+  - NETHERITE_AXE
+  - TRIDENT
+  - MACE
+  - BOW
+  - CROSSBOW

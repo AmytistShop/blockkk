@@ -1,0 +1,14 @@
+name: HytaleBlocker
+version: 1.0.0
+main: me.hytaleblocker.HytaleBlocker
+api-version: "1.21"
+authors: [ "ChatGPT" ]
+description: Hytale-like weapon block/parry for Java+Bedrock (Geyser/Floodgate).
+commands:
+  hytaleblocker:
+    description: Reload config
+    usage: /hytaleblocker reload
+    permission: hytaleblocker.reload
+permissions:
+  hytaleblocker.reload:
+    default: op
